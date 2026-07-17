@@ -216,19 +216,19 @@ Every push to the **main** branch automatically runs all backend tests.
 
 ## 👥 Crowd Intelligence
 
-![Crowd Intelligence](image2.png)
+![Crowd Intelligence](image2.jpeg)
 
 ---
 
 ## 🛡 Security Command Center
 
-![Security](image3.png)
+![Security](image3.jpeg)
 
 ---
 
 ## 🚗 Smart Parking & Ticket Management
 
-![Parking](image4.png)
+![Parking](image4.jpeg)
 
 ---
 
