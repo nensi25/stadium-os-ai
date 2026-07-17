@@ -9,8 +9,8 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
-![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js)
-![Express.js](https://img.shields.io/badge/Express.js-Backend-black?style=for-the-badge&logo=express)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
 ![GitHub Actions](https://github.com/nensi25/stadium-os-ai/actions/workflows/test.yml/badge.svg)
 
 ---
@@ -25,64 +25,95 @@
 
 # 📖 Overview
 
-**StadiumOS AI** is an AI-inspired smart stadium management platform that centralizes stadium operations into one intelligent dashboard.
+**StadiumOS AI** is an AI-powered Smart Stadium Management System that helps monitor and manage stadium operations from a single intelligent dashboard.
 
-The platform demonstrates how modern web technologies and backend APIs can be used to monitor stadium operations, crowd movement, parking availability, ticket management, weather conditions, and security alerts through a responsive dashboard.
+The project demonstrates how modern web technologies and backend APIs can be used to monitor visitors, crowd movement, parking, ticketing, security alerts, weather conditions, and stadium analytics through a clean, responsive interface.
 
 ---
 
 # ✨ Features
 
-## 📊 Dashboard
-- Live Stadium Statistics
+## 📊 AI Dashboard
+
+- Live Stadium Overview
+- Visitor Statistics
 - Revenue Analytics
 - Occupancy Monitoring
-- Visitor Insights
 - Operational KPIs
-- AI Dashboard Interface
+- Interactive Dashboard
+
+---
 
 ## 👥 Crowd Intelligence
-- Crowd Density Monitoring
-- Entry & Exit Tracking
-- Attendance Analytics
+
+- Live Crowd Monitoring
+- Entry & Exit Analytics
+- Crowd Density Tracking
+- Attendance Statistics
 - Zone Occupancy
-- Live Crowd Insights
+
+---
 
 ## 🛡 Security Center
+
+- Security Dashboard
 - Incident Monitoring
-- Security Alerts
-- Camera Dashboard Layout
 - Threat Notifications
+- Activity Timeline
+- Alert Management
+
+---
 
 ## 🚗 Smart Parking
+
 - Parking Availability
 - Zone Management
 - VIP Parking
-- Live Capacity Status
+- Vehicle Distribution
+- Capacity Monitoring
 
-## 🎟 Ticket Management
+---
+
+## 🎟 Smart Ticketing
+
 - Seat Availability
 - VIP Booking
 - Ticket Dashboard
 - Seating Visualization
 
+---
+
 ## 🌦 Weather Intelligence
-- Weather Forecast
-- Rain Prediction
-- Wind Speed
-- Stadium Weather Updates
+
+- Live Weather
+- Hourly Forecast
+- Weekly Forecast
+- Rain Probability
+- Wind Monitoring
 
 ---
 
-# 🧠 AI Concepts
+# 🧠 AI Concepts Demonstrated
 
 - AI Dashboard
 - Predictive Analytics
-- Smart Stadium Monitoring
 - Crowd Intelligence
 - Decision Support Interface
-- Real-Time Analytics
-- Operational Insights
+- Smart Monitoring
+- Real-Time Data Visualization
+- Operational Analytics
+
+---
+
+# 🖥 User Interface
+
+- Modern Dashboard
+- Glassmorphism UI
+- Responsive Design
+- Interactive Cards
+- Live Status Indicators
+- Smooth Animations
+- Professional Admin Interface
 
 ---
 
@@ -92,10 +123,10 @@ The platform demonstrates how modern web technologies and backend APIs can be us
 |------------|----------|
 | HTML5 | Frontend Structure |
 | CSS3 | Styling |
-| JavaScript (ES6) | Client-side Logic |
-| Node.js | Runtime Environment |
+| JavaScript (ES6) | Frontend Logic |
+| Node.js | Runtime |
 | Express.js | Backend APIs |
-| Jest | Unit Testing |
+| Jest | Backend Testing |
 | Supertest | API Testing |
 | GitHub Actions | Continuous Integration |
 
@@ -108,7 +139,6 @@ stadium-os-ai
 │
 ├── backend
 │   ├── tests
-│   │   └── server.test.js
 │   ├── package.json
 │   └── server.js
 │
@@ -121,7 +151,11 @@ stadium-os-ai
 │
 ├── index.html
 ├── package.json
-└── README.md
+├── README.md
+├── image1.png
+├── image2.png
+├── image3.png
+└── image4.png
 ```
 
 ---
@@ -134,7 +168,7 @@ Clone the repository
 git clone https://github.com/nensi25/stadium-os-ai.git
 ```
 
-Move into the project
+Go to the project
 
 ```bash
 cd stadium-os-ai
@@ -147,7 +181,7 @@ cd backend
 npm install
 ```
 
-Start the backend server
+Run backend
 
 ```bash
 npm start
@@ -169,77 +203,72 @@ This project includes automated backend API testing using:
 - Supertest
 - GitHub Actions
 
-Every push to the **main** branch automatically runs the test suite.
+Every push to the **main** branch automatically runs all backend tests.
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Screenshots
 
-Add your screenshots inside a folder named:
+## 🏠 AI Dashboard
 
-```
-screenshots/
-```
-
-Example:
-
-```
-screenshots/dashboard.png
-screenshots/security.png
-screenshots/parking.png
-screenshots/weather.png
-```
-
-Then use:
-
-```md
-![Dashboard](screenshots/dashboard.png)
-
-![Security](screenshots/security.png)
-
-![Parking](screenshots/parking.png)
-
-![Weather](screenshots/weather.png)
-```
+![Dashboard](image1.png)
 
 ---
 
-# 💡 Future Improvements
+## 👥 Crowd Intelligence
+
+![Crowd Intelligence](image2.png)
+
+---
+
+## 🛡 Security Command Center
+
+![Security](image3.png)
+
+---
+
+## 🚗 Smart Parking & Ticket Management
+
+![Parking](image4.png)
+
+---
+
+# 💡 Future Scope
 
 - AI Chat Assistant
-- Face Recognition
-- Computer Vision
+- Face Recognition Entry
+- Computer Vision Crowd Detection
 - IoT Sensor Integration
 - Digital Twin Stadium
-- Emergency Alert Automation
-- Predictive Maintenance
 - Mobile Application
+- Predictive Maintenance
+- Emergency Alert Automation
 - Cloud Deployment
 
 ---
 
 # 🎯 Use Cases
 
-- Sports Stadiums
-- Football Arenas
 - Cricket Stadiums
+- Football Arenas
+- Sports Complexes
 - Concert Venues
+- Convention Centers
 - Smart Cities
-- Exhibition Centers
-- Convention Halls
 - Public Events
+- Exhibition Halls
 
 ---
 
 # 📈 Project Highlights
 
-✅ Responsive Design
+✅ Responsive Dashboard
 
-✅ AI-inspired Dashboard
+✅ AI-inspired Interface
 
 ✅ Express.js Backend
 
-✅ REST API
+✅ REST APIs
 
 ✅ Automated Testing
 
@@ -247,11 +276,11 @@ Then use:
 
 ✅ Smart Parking
 
+✅ Ticket Management
+
 ✅ Security Dashboard
 
-✅ Weather Intelligence
-
-✅ Crowd Analytics
+✅ Weather Monitoring
 
 ---
 
@@ -261,26 +290,27 @@ Then use:
 
 **B.Tech Computer Engineering**
 
-### Connect
+### Connect With Me
 
-- GitHub: https://github.com/nensi25
-- LinkedIn: https://www.linkedin.com/in/nensi-gohel-765935328/
+🔗 GitHub: https://github.com/nensi25
+
+💼 LinkedIn: https://www.linkedin.com/in/nensi-gohel-765935328/
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions, suggestions, and improvements are always welcome.
 
-Feel free to fork the repository and submit a Pull Request.
+Feel free to fork this repository and submit a Pull Request.
 
 ---
 
 # ⭐ Support
 
-If you found this project useful,
+If you found this project helpful,
 
-⭐ Star this repository.
+⭐ Star this repository to support future improvements.
 
 ---
 
