@@ -1,58 +1,155 @@
+<div align="center">
+
 # 🏟️ StadiumOS AI
 
-An AI-powered smart stadium management system designed to enhance fan experience, improve security, optimize parking, and provide real-time analytics through an intuitive dashboard.
+### AI-Powered Smart Stadium Operating System
 
-## 🚀 Live Demo
+*Transforming Stadium Operations with Artificial Intelligence, Real-Time Analytics, and Intelligent Automation.*
 
-🔗 https://stadium-os-ai25.netlify.app/
-
----
-
-## 📌 Features
-
-- 🏟️ Smart Stadium Dashboard
-- 🤖 AI Chat Assistant
-- 📊 Real-Time Analytics
-- 🚗 Smart Parking Management
-- 🌦️ Live Weather Updates
-- 🔐 Secure Authentication
-- 📱 Responsive Design
-- ⚡ Fast and Interactive UI
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
+![GitHub Actions](https://github.com/nensi25/stadium-os-ai/actions/workflows/test.yml/badge.svg)
 
 ---
 
-## 🛠️ Tech Stack
+### 🚀 Intelligent Stadium Management Dashboard
 
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
+**Real-Time Monitoring • Crowd Intelligence • Security Analytics • Smart Parking • Ticket Management • Weather Intelligence**
 
-### Backend
-- Node.js
-- Express.js
-
-### Tools
-- Git
-- GitHub
-- Netlify
-- VS Code
+</div>
 
 ---
 
-## 📂 Project Structure
+# 📖 Overview
+
+**StadiumOS AI** is an AI-powered Smart Stadium Management System that helps monitor and manage stadium operations from a single intelligent dashboard.
+
+The project demonstrates how modern web technologies and backend APIs can be used to monitor visitors, crowd movement, parking, ticketing, security alerts, weather conditions, and stadium analytics through a clean, responsive interface.
+
+---
+
+# ✨ Features
+
+## 📊 AI Dashboard
+
+- Live Stadium Overview
+- Visitor Statistics
+- Revenue Analytics
+- Occupancy Monitoring
+- Operational KPIs
+- Interactive Dashboard
+
+---
+
+## 👥 Crowd Intelligence
+
+- Live Crowd Monitoring
+- Entry & Exit Analytics
+- Crowd Density Tracking
+- Attendance Statistics
+- Zone Occupancy
+
+---
+
+## 🛡 Security Center
+
+- Security Dashboard
+- Incident Monitoring
+- Threat Notifications
+- Activity Timeline
+- Alert Management
+
+---
+
+## 🚗 Smart Parking
+
+- Parking Availability
+- Zone Management
+- VIP Parking
+- Vehicle Distribution
+- Capacity Monitoring
+
+---
+
+## 🎟 Smart Ticketing
+
+- Seat Availability
+- VIP Booking
+- Ticket Dashboard
+- Seating Visualization
+
+---
+
+## 🌦 Weather Intelligence
+
+- Live Weather
+- Hourly Forecast
+- Weekly Forecast
+- Rain Probability
+- Wind Monitoring
+
+---
+
+# 🧠 AI Concepts Demonstrated
+
+- AI Dashboard
+- Predictive Analytics
+- Crowd Intelligence
+- Decision Support Interface
+- Smart Monitoring
+- Real-Time Data Visualization
+- Operational Analytics
+
+---
+
+# 🖥 User Interface
+
+- Modern Dashboard
+- Glassmorphism UI
+- Responsive Design
+- Interactive Cards
+- Live Status Indicators
+- Smooth Animations
+- Professional Admin Interface
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Frontend Structure |
+| CSS3 | Styling |
+| JavaScript (ES6) | Frontend Logic |
+| Node.js | Runtime |
+| Express.js | Backend APIs |
+| Jest | Backend Testing |
+| Supertest | API Testing |
+| GitHub Actions | Continuous Integration |
+
+---
+
+# 📂 Project Structure
 
 ```text
-stadium-os-ai/
+stadium-os-ai
 │
-├── backend/
-│   ├── server.js
+├── backend
+│   ├── tests
 │   ├── package.json
-│   └── tests/
+│   └── server.js
 │
-├── css/
-├── js/
+├── css
+├── js
+├── .github
+│   └── workflows
+│       └── test.yml
+│
 ├── index.html
+├── package.json
 ├── README.md
 ├── image.png
 ├── image2.png
@@ -62,42 +159,34 @@ stadium-os-ai/
 
 ---
 
-## ⚙️ Installation
+# 🚀 Installation
 
-### Clone the repository
+Clone the repository
 
 ```bash
 git clone https://github.com/nensi25/stadium-os-ai.git
 ```
 
-### Go to the project
+Go to the project
 
 ```bash
 cd stadium-os-ai
 ```
 
-### Install backend dependencies
+Install backend dependencies
 
 ```bash
 cd backend
 npm install
 ```
 
-### Start the backend
+Run backend
 
 ```bash
 npm start
 ```
 
-or
-
-```bash
-npm run dev
-```
-
----
-
-## 🧪 Run Tests
+Run backend tests
 
 ```bash
 npm test
@@ -105,70 +194,131 @@ npm test
 
 ---
 
-# 📸 Screenshots
+# ✅ Automated Testing
 
-## 🏠 Dashboard
+This project includes automated backend API testing using:
+
+- Jest
+- Supertest
+- GitHub Actions
+
+Every push to the **main** branch automatically runs all backend tests.
+
+---
+
+# 📸 Project Screenshots
+
+## 🏠 AI Dashboard
 
 ![Dashboard](image.png)
 
 ---
 
-## 🤖 AI Assistant
+## 👥 Crowd Intelligence
 
-![AI Assistant](image2.png)
+![Crowd Intelligence](image2.png)
 
 ---
 
-## 🔐 Security Monitoring
+## 🛡 Security Command Center
 
 ![Security](image3.png)
 
 ---
 
-## 🚗 Parking Management
+## 🚗 Smart Parking & Ticket Management
 
 ![Parking](image4.png)
 
 ---
 
-## 🌟 Future Improvements
+# 💡 Future Scope
 
-- AI-based Crowd Prediction
-- Seat Reservation System
+- AI Chat Assistant
 - Face Recognition Entry
-- Emergency Alert System
-- Payment Gateway
-- Voice Assistant
-- Admin Dashboard
-- Mobile App
+- Computer Vision Crowd Detection
+- IoT Sensor Integration
+- Digital Twin Stadium
+- Mobile Application
+- Predictive Maintenance
+- Emergency Alert Automation
+- Cloud Deployment
 
 ---
 
-## 🤝 Contributing
+# 🎯 Use Cases
 
-1. Fork this repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push the branch.
-5. Open a Pull Request.
-
----
-
-## 👩‍💻 Author
-
-**Nensi Gohel**
-
-- GitHub: https://github.com/nensi25
-- LinkedIn: https://www.linkedin.com/in/nensi-gohel-765935328/
+- Cricket Stadiums
+- Football Arenas
+- Sports Complexes
+- Concert Venues
+- Convention Centers
+- Smart Cities
+- Public Events
+- Exhibition Halls
 
 ---
 
-## ⭐ Support
+# 📈 Project Highlights
 
-If you like this project, please give it a ⭐ on GitHub.
+✅ Responsive Dashboard
+
+✅ AI-inspired Interface
+
+✅ Express.js Backend
+
+✅ REST APIs
+
+✅ Automated Testing
+
+✅ GitHub Actions CI
+
+✅ Smart Parking
+
+✅ Ticket Management
+
+✅ Security Dashboard
+
+✅ Weather Monitoring
 
 ---
 
-## 📄 License
+# 👩‍💻 Developer
 
-This project is licensed under the MIT License.
+## Nensi Gohel
+
+**B.Tech Computer Engineering**
+
+### Connect With Me
+
+🔗 GitHub: https://github.com/nensi25
+
+💼 LinkedIn: https://www.linkedin.com/in/nensi-gohel-765935328/
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome.
+
+Feel free to fork this repository and submit a Pull Request.
+
+---
+
+# ⭐ Support
+
+If you found this project helpful,
+
+⭐ Star this repository to support future improvements.
+
+---
+
+<div align="center">
+
+## 🏟️ StadiumOS AI
+
+### Building the Future of Intelligent Stadium Management
+
+Made with ❤️ by **Nensi Gohel**
+
+</div>
